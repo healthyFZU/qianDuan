@@ -1,0 +1,59 @@
+
+/* 样式同前 */
+.container.data-v-bac4a35d {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  height: 100%;
+}
+.logo.data-v-bac4a35d {
+  width: 100%;
+  margin-bottom: 10px;
+  position: relative;
+  bottom: 30px;
+  transform: scale(1.2);
+}
+.input-group.data-v-bac4a35d {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  padding: 10px 15px;
+  margin-bottom: 32px;
+  width: 80%;
+  box-sizing: border-box;
+  position: relative;
+  bottom: 30px;
+}
+.icon.data-v-bac4a35d {
+  font-size: 18px;
+  color: #f45b6c;
+  margin-right: 10px;
+}
+.input.data-v-bac4a35d {
+  flex: 1;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+.get-code.data-v-bac4a35d {
+  font-size: 14px;
+  color: #4c9bf0;
+  margin-left: 10px;
+}
+.register-button.data-v-bac4a35d {
+  width: 80%;
+  height: 45px;
+  background-color: #50cc8e;
+  color: black;
+  border: none;
+  border-radius: 25px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  bottom: 40px;
+}
