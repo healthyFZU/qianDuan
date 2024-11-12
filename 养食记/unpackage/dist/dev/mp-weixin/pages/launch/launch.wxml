@@ -1,0 +1,1 @@
+<view class="container" bindtap="{{b}}"><image class="background-image" src="{{a}}" mode="aspectFill"/></view>
