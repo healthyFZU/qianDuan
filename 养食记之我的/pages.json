@@ -1,0 +1,197 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},
+		{
+			"path" : "pages/my/my",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/test/test/test",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/healthy-plan/healthy-plan",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/shezhi/shezhi",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/zhanghuanquan/zhanghuanquan",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/tongzhi/tongzhi",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/yinsi/yinsi",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/tongyong/tongyong",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/shujuguanli/shujuguanli",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/tuichuzhanghu/tuichuzhanghu",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/shezhi/qita/qita",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/tijiandangan/tijiandangan",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/bangzhuyufankui/bangzhuyufankui",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/shoudaofankui/shoudaofankui",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/shangzhouxiaojie/shangzhouxiaojie",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/wodeshoucang/wodeshoucang",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/benzhoushipu/benzhoushipu",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/benzhoushipu/wucan/wucan",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		},
+		{
+			"path" : "pages/benzhoushipu/wancan/wancan",
+			"style" : 
+			{
+				"navigationBarTitleText" : ""
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {}
+}
+// pages.json
+{
+  "pages": [
+    {
+      "path": "pages/my/my",
+      "style": {
+        "navigationBarTitleText": "我的",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#8A8A8A",
+    "selectedColor": "#007AFF",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "iconPath": "static/icons/home.png",
+        "selectedIconPath": "static/icons/home-active.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/assistant/assistant",
+        "iconPath": "static/icons/assistant.png",
+        "selectedIconPath": "static/icons/assistant-active.png",
+        "text": "小助手"
+      },
+      {
+        "pagePath": "pages/record/record",
+        "iconPath": "static/icons/record.png",
+        "selectedIconPath": "static/icons/record-active.png",
+        "text": "记录"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "static/icons/my.png",
+        "selectedIconPath": "static/icons/my-active.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
