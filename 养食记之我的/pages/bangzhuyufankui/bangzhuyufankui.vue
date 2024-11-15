@@ -1,27 +1,4 @@
 <template>
-	<view>
-		
-	</view>
-</template>
-
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
-</script>
-
-<style>
-
-</style>
-<!-- pages/feedback/feedback.vue -->
-<template>
   <view class="container">
     <!-- 时间显示 -->
     <text class="time">12:00</text>

@@ -1,26 +1,4 @@
-<template>
-	<view>
-		
-	</view>
-</template>
 
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
-</script>
-
-<style>
-
-</style>
-<!-- pages/diet-tracker/diet-tracker.vue -->
 <template>
   <view class="container">
     <!-- 顶部日期 -->

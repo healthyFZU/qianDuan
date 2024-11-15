@@ -1,26 +1,4 @@
-<template>
-	<view>
-		
-	</view>
-</template>
 
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
-</script>
-
-<style>
-
-</style>
-<!-- pages/notification-settings/notification-settings.vue -->
 <template>
   <view class="container">
     <!-- 接收通知的类型选择 -->

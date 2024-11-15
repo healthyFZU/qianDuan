@@ -1,4 +1,4 @@
-<!-- pages/health-plan/health-plan.vue -->
+
 <template>
   <view class="container">
     <!-- 顶部信息 -->

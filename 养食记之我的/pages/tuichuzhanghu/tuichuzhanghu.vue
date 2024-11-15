@@ -1,26 +1,4 @@
-<template>
-	<view>
-		
-	</view>
-</template>
 
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
-</script>
-
-<style>
-
-</style>
-<!-- pages/account-management/account-management.vue -->
 <template>
   <view class="container">
     <!-- 选项列表 -->

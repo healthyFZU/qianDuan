@@ -1,26 +1,4 @@
-<template>
-	<view>
-		
-	</view>
-</template>
 
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
-</script>
-
-<style>
-
-</style>
-<!-- pages/data-management/data-management.vue -->
 <template>
   <view class="container">
     <!-- 浏览历史清除 -->

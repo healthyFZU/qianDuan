@@ -1,156 +1,15 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
-		{
-			"path": "pages/index/index",
-			"style": {
-				"navigationBarTitleText": "uni-app"
-			}
-		},
-		{
-			"path" : "pages/my/my",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/test/test/test",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/healthy-plan/healthy-plan",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/shezhi/shezhi",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/zhanghuanquan/zhanghuanquan",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/tongzhi/tongzhi",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/yinsi/yinsi",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/tongyong/tongyong",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/shujuguanli/shujuguanli",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/tuichuzhanghu/tuichuzhanghu",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/shezhi/qita/qita",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/tijiandangan/tijiandangan",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/bangzhuyufankui/bangzhuyufankui",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/shoudaofankui/shoudaofankui",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/shangzhouxiaojie/shangzhouxiaojie",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/wodeshoucang/wodeshoucang",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/benzhoushipu/benzhoushipu",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/benzhoushipu/wucan/wucan",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		},
-		{
-			"path" : "pages/benzhoushipu/wancan/wancan",
-			"style" : 
-			{
-				"navigationBarTitleText" : ""
-			}
-		}
-	],
-	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
-	},
-	"uniIdRouter": {}
-}
-// pages.json
-{
   "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "首页",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
     {
       "path": "pages/my/my",
       "style": {
@@ -160,6 +19,167 @@
         "backgroundColor": "#FFFFFF",
         "enablePullDownRefresh": false
       }
+    },
+    {
+      "path": "pages/healthy-plan/healthy-plan",
+      "style": {
+        "navigationBarTitleText": "健康计划",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/shezhi/shezhi",
+      "style": {
+        "navigationBarTitleText": "设置",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/zhanghuanquan/zhanghuanquan",
+      "style": {
+        "navigationBarTitleText": "账户安全",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tongzhi/tongzhi",
+      "style": {
+        "navigationBarTitleText": "通知设置",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/yinsi/yinsi",
+      "style": {
+        "navigationBarTitleText": "隐私设置",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tongyong/tongyong",
+      "style": {
+        "navigationBarTitleText": "通用设置",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/shujuguanli/shujuguanli",
+      "style": {
+        "navigationBarTitleText": "数据管理",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tuichuzhanghu/tuichuzhanghu",
+      "style": {
+        "navigationBarTitleText": "退出账户/账户删除",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/bangzhuyufankui/bangzhuyufankui",
+      "style": {
+        "navigationBarTitleText": "帮助与反馈",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/shoudaofankui/shoudaofankui",
+      "style": {
+        "navigationBarTitleText": "收到反馈",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/shangzhouxiaojie/shangzhouxiaojie",
+      "style": {
+        "navigationBarTitleText": "上周小结",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/wodeshoucang/wodeshoucang",
+      "style": {
+        "navigationBarTitleText": "我的收藏",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/benzhoushipu/benzhoushipu",
+      "style": {
+        "navigationBarTitleText": "本周食谱",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+      "path": "pages/tijiandangan/tijiandangan",
+      "style": {
+        "navigationBarTitleText": "体检档案",
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#007AFF",
+        "backgroundColor": "#FFFFFF",
+        "enablePullDownRefresh": false
+      }
+    },
+    {
+    	"path" : "pages/wucan/wucan",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/wancan/wancan",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
+    },
+    {
+    	"path" : "pages/qita/qita",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : ""
+    	}
     }
   ],
   "tabBar": {
@@ -187,7 +207,7 @@
         "text": "记录"
       },
       {
-        "pagePath": "pages/my/my",
+        "path": "pages/my/my",
         "iconPath": "static/icons/my.png",
         "selectedIconPath": "static/icons/my-active.png",
         "text": "我的"

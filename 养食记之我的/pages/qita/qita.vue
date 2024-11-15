@@ -1,18 +1,24 @@
 
 <template>
   <view class="container">
+    <!-- 时间显示 -->
+    <text class="time">12:00</text>
+
+    <!-- 顶部导航栏 -->
+    <NavBar />
+
     <!-- 选项列表 -->
     <view class="options-list">
-      <view class="option-item" @click="navigateTo('changePassword')">
-        <text class="option-title">登录密码修改</text>
+      <view class="option-item" @click="navigateTo('thirdParty')">
+        <text class="option-title">第三方服务授权管理</text>
         <image class="arrow-icon" src="static/icons/arrow-right.png" />
       </view>
-      <view class="option-item" @click="navigateTo('bindPhoneOrEmail')">
-        <text class="option-title">绑定/解绑手机号或邮箱</text>
+      <view class="option-item" @click="navigateTo('subscription')">
+        <text class="option-title">订阅服务管理</text>
         <image class="arrow-icon" src="static/icons/arrow-right.png" />
       </view>
-      <view class="option-item" @click="navigateTo('twoFactorAuth')">
-        <text class="option-title">双重认证设置</text>
+      <view class="option-item" @click="navigateTo('payment')">
+        <text class="option-title">支付设置</text>
         <image class="arrow-icon" src="static/icons/arrow-right.png" />
       </view>
     </view>
@@ -20,13 +26,17 @@
 </template>
 
 <script>
+import NavBar from '../../components/NavBar.vue'
+
 export default {
-  name: 'AccountSecurityPage',
+  components: {
+    NavBar
+  },
   methods: {
     navigateTo(page) {
       // 导航到相应的设置页面
       uni.navigateTo({
-        url: `/pages/account-security/${page}/${page}`
+        url: `/pages/settings/${page}/${page}`
       });
     }
   }
@@ -36,6 +46,13 @@ export default {
 <style>
 .container {
   padding: 20px;
+}
+
+/* 时间显示 */
+.time {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
 }
 
 /* 选项列表 */
@@ -58,4 +75,7 @@ export default {
 }
 
 .arrow-icon {
-  width
+  width: 20px;
+  height: 20px;
+}
+</style>

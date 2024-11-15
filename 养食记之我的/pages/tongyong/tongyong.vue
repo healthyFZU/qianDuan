@@ -1,26 +1,4 @@
-<template>
-	<view>
-		
-	</view>
-</template>
 
-<script>
-	export default {
-		data() {
-			return {
-				
-			}
-		},
-		methods: {
-			
-		}
-	}
-</script>
-
-<style>
-
-</style>
-<!-- pages/general-settings/general-settings.vue -->
 <template>
   <view class="container">
     <!-- 语言选择 -->
